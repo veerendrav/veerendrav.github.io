@@ -7,7 +7,7 @@ subtitle: Ph.D. Student, Department of Computer Science and Engineering, IIT Bom
 
 profile:
   align: right
-  image: prof_pic_1.jpg
+  image: prof_pic_2.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
