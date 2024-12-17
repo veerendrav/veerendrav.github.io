@@ -27,8 +27,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hello! I am Veerendra V, a Ph.D. student in the [Department of Computer Science and Engineering at IIT Bombay](https://www.cse.iitb.ac.in/), working under the guidance of [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/). 
 
-My research focuses on deep reinforcement learning, specifically on` discovering temporal abstractions` that enhance exploration and exploitation in both single-task and multi-task settings. I am particularly interested in leveraging `representation learning methods` and `preference-based learning methods` to induce knowledge priors, enabling the discovery of useful temporal abstractions. My work aims to contribute to the development of more efficient and adaptable reinforcement learning systems. 
+My research focuses on deep reinforcement learning, specifically on the problem of` discovering temporal abstractions` that enhance exploration and credit assignment in both single-task and multi-task settings. Towards this end I am investigating `representation learning methods` and `preference-based learning methods` to induce knowledge priors, enabling the discovery of useful temporal abstractions. My work aims to contribute to the development of more efficient and adaptable reinforcement learning systems. 
 
-Beyond academics, I am an avid reader who enjoys immersing myself in books across genres. I also love playing chess, running, and exploring new ideas that challenge my thinking.
+Beyond academics, I am an avid reader who enjoys immersing myself in books across genres. I also love playing chess, running, hiking, and exploring new ideas that challenge my thinking.
 
 > Success is not final, failure is not fatal: it is the courage to continue that counts. ~  Winston S. Churchill 
