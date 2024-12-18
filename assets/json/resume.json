@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Veerendrababu Vakkapatla",
+    "label": "Ph.D Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "veerendra@cse.iitb.ac.in",
+    "phone": "+919491347829",
+    "url": "https://veerendrav.github.io",
+    "summary": "Ph.D Student at IIT Bombay, India",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Room No 316, ISRDC Lab,CC Building, IIT Bombay, Powai",
+      "postalCode": "400076",
+      "city": "Mumbai",
+      "countryCode": "India",
+      "region": "Maharashtra"
     },
     "profiles": [
       {
