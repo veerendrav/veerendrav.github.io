@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: Geometric Deep Learning
 description: course notes on Geometric Deep Learning (https://geometricdeeplearning.com/lectures/) 
 tags: course-notes

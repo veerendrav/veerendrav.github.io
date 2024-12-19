@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: A list of Popular Deep Reinforcement Learning algorithms
 description: Explanation and my own implementation of some of the most popular Deep Reinforcement Learning algorithms in JAX/Flax
 tags: deep-rl

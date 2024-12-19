@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: Deep Generative Models
 description: Course notes on Deep Generative Modeling covering the courses CS 236(stanford),CS 294-158(berkeley),CS 6785(cornell)
 tags: course-notes

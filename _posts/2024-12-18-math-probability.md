@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: Important concepts in probability and statistics
 description: Refer probability for computer science students by Chris Piech, Probabilistic systems analysis and applied probability by tsitklis
 tags: course-notes

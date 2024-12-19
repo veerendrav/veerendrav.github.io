@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: Optimization(CS 439) 
 description: OptML course EPFL CS-439
 tags: course-notes

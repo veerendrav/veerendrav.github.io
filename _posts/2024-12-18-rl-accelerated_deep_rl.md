@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: Accelerated Deep Reinforcement learning
 description: Discussion on the tools,techniques, environments and algorithms that accelerate Deep Reinforcement Learning agents training and evaluation.
 tags: deep-rl

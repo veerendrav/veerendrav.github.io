@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: Spectral Graph Theory
 description: course notes on spectral graph theory
 tags: course-notes

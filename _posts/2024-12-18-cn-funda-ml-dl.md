@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: Applied Machine Learning - Volodymyr Kuleshov
 description: course notes of Applied Machine Learning(CS 5787) by Volodymyr Kuleshov.
 tags: course-notes

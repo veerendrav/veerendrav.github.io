@@ -1,6 +1,6 @@
 ---
 layout: distill
-published: true
+published: false
 title: Optimal Transport - Marco Cuturi
 description: MLSS 2024 talk on Optimal Transport by Marco Cuturi
 tags: talk-notes
