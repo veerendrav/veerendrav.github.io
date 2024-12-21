@@ -80,7 +80,7 @@ _styles: >
   }
 ---
 
-## Equations
+## OTT JAX
 
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
 You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.

@@ -1,12 +1,11 @@
 ---
 layout: distill
-published: true
-title: Reinforcement Learning Research Papers - Notes[0/100]
-description: Notes on the selected research papers in Reinforcement Learning
-tags: paper-notes
-categories: AI
+published: false
+title: Deep Sequence Models
+description: Explanation of deep sequence models such as transformers and RNNs and SSMs with JAX
+tags: deep-rl
 giscus_comments: true
-date: 2024-12-19
+date: 2021-05-22
 featured: false
 mermaid:
   enabled: true
@@ -26,7 +25,7 @@ authors:
     affiliations:
       name: IIT Bombay
 
-bibliography: 2024-12-19-pr-set-1.bib
+bibliography: 2024-12-18-me-sequence-models.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -35,20 +34,14 @@ bibliography: 2024-12-19-pr-set-1.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: RLiable
+  - name: RNNs
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Streaming Deep RL
-  - name: Parallel Q-learning
-  - name: HPO for RL
-  - name: Plasticity in Deep RL
-  - name: Deep bisimulation for Control
-  - name: Reward centering
-  - name: Swift-TD
-  - name: MaxInfoRL
-
+  - name: Transformers
+  - name: State Space Models
+  
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
 _styles: >
@@ -68,8 +61,16 @@ _styles: >
   }
 ---
 
-## Deep Reinforcement Learning at the Edge of the Statistical Precipice
+## RNNs
 
 
+---
 
+## Transformers
+
+---
+
+## SSMs
+
+---
 
