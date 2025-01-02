@@ -55,14 +55,20 @@ _styles: >
   .fake-img p {
     font-family: monospace;
     color: white;
-    text-align: left;
+    text-align: left; 
     margin: 12px 0;
     text-align: center;
     font-size: 16px;
   }
 ---
-
+We are refereing to these books <d-cite key="sutton2018reinforcement">RL book</d-cite> 
 ## Bandits
-
+---
+## MDPs
 
 ---
+## Planning and search
+
+---
+## Reinforcement Learning
+
