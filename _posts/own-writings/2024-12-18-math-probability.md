@@ -1,10 +1,10 @@
 ---
 layout: distill
 published: false
-title: Optimal Transport - Marco Cuturi
-description: MLSS 2024 talk on Optimal Transport by Marco Cuturi
-tags: talk-notes
-categories: Math
+title: Important concepts in probability and statistics
+description: Refer probability for computer science students by Chris Piech, Probabilistic systems analysis and applied probability by tsitklis
+tags: course-notes
+categories: own-writings
 giscus_comments: true
 date: 2021-05-22
 featured: false
@@ -80,7 +80,7 @@ _styles: >
   }
 ---
 
-## OTT JAX
+## Equations
 
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
 You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.

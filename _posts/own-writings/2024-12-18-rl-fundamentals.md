@@ -1,8 +1,8 @@
 ---
 layout: distill
-published: true
+published: false
 title: Foundations of Reinforcement Learning 
-description: A brief excursion into the fundamental concepts of Reinforcement Learning with JAX
+description: My version of fundamentals of Reinforcement Learning and Deep Reinforcement Learning. 
 tags: deep-rl
 giscus_comments: true
 date: 2021-05-22
@@ -61,7 +61,7 @@ _styles: >
     font-size: 16px;
   }
 ---
-We are refereing to these books <d-cite key="sutton2018reinforcement">RL book</d-cite> 
+We are refereing to these books <d-cite key="sutton2018reinforcement"></d-cite><d-cite key="murphy2024RLoverview"></d-cite>,<d-cite key="lu2023reinforcementlearningbitbit"></d-cite>,<d-cite key="agarwal2019reinforcement"></d-cite> and the lectures <d-cite key="Poupart2022"></d-cite>,<d-cite key="MutualInformation"></d-cite>,<d-cite key="FoundationsofDRL"></d-cite> and the blogs <d-cite key="decisionsanddragons"></d-cite>,<d-cite key="spinningupdrl"></d-cite>
 ## Bandits
 ---
 ## MDPs

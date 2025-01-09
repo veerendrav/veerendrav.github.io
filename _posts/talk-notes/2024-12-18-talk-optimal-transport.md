@@ -1,10 +1,10 @@
 ---
 layout: distill
-published: true
-title: Deep Generative Models
-description: Course notes on Deep Generative Modeling covering the courses CS 236(stanford),CS 294-158(berkeley),CS 6785(cornell)
-tags: course-notes
-categories: AI
+published: false
+title: Optimal Transport - Marco Cuturi
+description: MLSS 2024 talk on Optimal Transport by Marco Cuturi
+tags: math
+categories: talk-notes
 giscus_comments: true
 date: 2021-05-22
 featured: false
@@ -80,7 +80,7 @@ _styles: >
   }
 ---
 
-## Equations
+## OTT JAX
 
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
 You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.

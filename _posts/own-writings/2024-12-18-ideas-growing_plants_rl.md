@@ -3,7 +3,7 @@ layout: distill
 published: false
 title: Growing Plants with Reinforcement Learning
 description: Can a deep reinforcement learning agent learn to grow plants?
-tags: deep-rl
+tags: reinforcement-learning
 giscus_comments: true
 date: 2021-05-22
 featured: false

@@ -1,8 +1,8 @@
 ---
 layout: distill
 published: false
-title: Important concepts in probability and statistics
-description: Refer probability for computer science students by Chris Piech, Probabilistic systems analysis and applied probability by tsitklis
+title: Deep Generative Models
+description: Course notes on Deep Generative Modeling covering the courses CS 236(stanford),CS 294-158(berkeley),CS 6785(cornell)
 tags: course-notes
 categories: AI
 giscus_comments: true
