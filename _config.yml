@@ -89,7 +89,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Research Log # blog_name will be displayed in your blog page
-blog_description: Compilation of the research papers I have read, Talks I have listened to, and the concepts I have learned.
+blog_description: A tracker of my research and learning.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
