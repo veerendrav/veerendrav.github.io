@@ -1,12 +1,10 @@
 ---
-layout: page
+layout: deadlines
 title: deadlines
 permalink: /deadlines/
 description: Track important AI conference and journal submission deadlines
 nav: true
 nav_order: 2
-_styles: >
-  @import url('/assets/css/deadlines.css');
 ---
 
 <div id="currtime"></div>
