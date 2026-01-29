@@ -5,6 +5,8 @@ permalink: /deadlines/
 description: Track important AI conference and journal submission deadlines
 nav: true
 nav_order: 2
+_styles: >
+  @import url('/assets/css/deadlines.css');
 ---
 
 <div id="currtime"></div>
@@ -15,20 +17,18 @@ nav_order: 2
 <div class="mt-4">
   <details>
     <summary>About this tool</summary>
-    <p>Thanks to <a href="https://twitter.com/karpathy">@karpathy</a> and
-    <a href="http://www.academiccountdown.com/">Academic Countdown</a> for providing the base versions.</p>
+    <p>Thanks to <a href="https://twitter.com/karpathy">@karpathy</a> and Academic Countdown for providing the base versions.</p>
     <p>Based on the <a href="https://github.com/IntelligentSystemsLaboratory/academic_countdown">academic_countdown</a>
     project by the Intelligent Systems Laboratory at University of Bristol.</p>
   </details>
 </div>
 
-<link rel="stylesheet" href="{{ '/assets/css/deadlines.css' | relative_url }}">
 <script>
   // Wait for jQuery to be loaded before loading deadlines.js
   (function checkJQuery() {
     if (typeof jQuery !== 'undefined') {
       var script = document.createElement('script');
-      script.src = '{{ '/assets/js/deadlines.js' | relative_url }}';
+      script.src = '/assets/js/deadlines.js';
       document.body.appendChild(script);
     } else {
       setTimeout(checkJQuery, 50);

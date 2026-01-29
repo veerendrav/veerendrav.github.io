@@ -111,7 +111,7 @@ For journals with rolling submission (no specific deadline):
 | `conference_dates` | ⭕ Optional | Conference start/end dates | `{"start": "2027/07/10", "end": "2027/07/16"}` |
 | `notification` | ⭕ Optional | Notification date | "04/15/2027" |
 | `camera_ready` | ⭕ Optional | Camera ready deadline | "05/01/2027" |
-| `link` | ⭕ Optional | Conference website URL | "https://icml.cc/2027" |
+| `link` | ⭕ Optional | Conference website URL | "https://icml.cc/" |
 | `approx` | ⭕ Optional | 1 if date is approximate | 1 |
 
 *For journals, omitting `deadline` creates a rolling submission entry
@@ -177,7 +177,7 @@ The following rankings have color-coded badges:
   "ranking": "A*",
   "area": "General AI/ML",
   "location": "Vancouver, Canada",
-  "link": "https://neurips.cc/",
+  "link": "https://neurips.cc/Conferences/2027",
   "abstract_deadline": "05/08/2027 13:00",
   "deadline": "05/15/2027 13:00",
   "notification": "09/15/2027",
