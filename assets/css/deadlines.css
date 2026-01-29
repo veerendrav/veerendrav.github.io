@@ -1,0 +1,353 @@
+/* AI Conference and Journal Deadlines - Integrated with al-folio theme */
+
+/* Main content container - responsive and theme-integrated */
+#surround {
+  max-width: 930px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: transparent;
+}
+
+/* Div that contains all deadlines */
+#deadlinesdiv {
+  margin-top: 20px;
+}
+
+#currtime {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: var(--global-text-color, #222);
+}
+
+#bottompart {
+  text-align: center;
+}
+
+/* Page title - uses site's heading styles */
+h1 {
+  display: inline;
+  margin-right: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+/* The cells that contain each deadline - theme-integrated colors */
+.dd {
+  padding: 15px;
+  margin-bottom: 8px;
+  background-color: var(--global-code-bg-color, #f8f9fa);
+  border: 1px solid var(--global-divider-color, #dee2e6);
+  color: var(--global-text-color, #222);
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.dd:hover {
+  background-color: var(--global-hover-color, #e9ecef);
+  border: 1px solid var(--global-text-color-light, #adb5bd);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Time left description div */
+.tld {
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 16px;
+  color: var(--global-theme-color, #007bff);
+}
+
+/* Area description div */
+.ad {
+  font-family: 'Roboto Mono', 'Courier New', monospace;
+  font-size: 13px;
+  color: var(--global-text-color-light, #666);
+  margin-top: 4px;
+}
+
+/* Time description div */
+.td {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--global-text-color, #222);
+}
+
+/* Conference dates div */
+.cd {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--global-text-color, #222);
+}
+
+/* Venue description div */
+.vd {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--global-text-color, #222);
+  margin-bottom: 4px;
+}
+
+/* venue link description span */
+.vld:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--global-theme-color, #007bff);
+}
+
+/* Warning div */
+.wd {
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  color: #c33;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.hd {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: var(--global-text-color-light, #808080);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.hd:hover {
+  background-color: var(--global-hover-color, #e9ecef);
+  color: var(--global-text-color, #222);
+}
+
+/* Full-screen overlay */
+#backface {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--global-bg-color, white);
+  display: none;
+  z-index: 888;
+  cursor: pointer;
+}
+
+#backfacetext {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  width: 80%;
+  max-width: 600px;
+  color: var(--global-text-color, #555);
+  font-weight: bold;
+  z-index: 889;
+  text-align: center;
+}
+
+#makeown {
+  text-decoration: underline;
+  color: var(--global-theme-color, #008);
+  cursor: pointer;
+}
+
+#instrown {
+  display: none;
+  background-color: var(--global-code-bg-color, #EEE);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Section headers for Conferences and Journals */
+.section-header {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+  font-weight: 600;
+  font-family: 'Roboto Slab', serif;
+  color: var(--global-text-color, #333);
+  border-bottom: 2px solid var(--global-divider-color, #DDD);
+  padding-bottom: 8px;
+}
+
+/* First section should have less top margin */
+.section-header:first-of-type {
+  margin-top: 10px;
+}
+
+/* Ranking badge base style */
+.ranking-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* A* ranking - Gold/Dark Gold */
+.rank-astar {
+  background-color: #FFD700;
+  color: #1a1a1a;
+  border: 1px solid #DAA520;
+}
+
+/* A ranking - Light Blue */
+.rank-a {
+  background-color: #87CEEB;
+  color: #1a1a1a;
+  border: 1px solid #5DADE2;
+}
+
+/* B ranking - Light Gray */
+.rank-b {
+  background-color: #D3D3D3;
+  color: #1a1a1a;
+  border: 1px solid #A9A9A9;
+}
+
+/* Top - New ranking - Light Green */
+.rank-top---new {
+  background-color: #90EE90;
+  color: #1a1a1a;
+  border: 1px solid #32CD32;
+}
+
+/* Recent/Top tier journal rankings - Purple/Lavender */
+.rank-recent-top-tier-ai-journal,
+.rank-top-tier-ai-journal {
+  background-color: #E6E6FA;
+  color: #1a1a1a;
+  border: 1px solid #9370DB;
+}
+
+/* Dark mode overrides for ranking badges */
+html.dark-mode .rank-astar,
+html[data-theme='dark'] .rank-astar {
+  background-color: #B8860B;
+  color: #ffffff;
+  border: 1px solid #FFD700;
+}
+
+html.dark-mode .rank-a,
+html[data-theme='dark'] .rank-a {
+  background-color: #4682B4;
+  color: #ffffff;
+  border: 1px solid #87CEEB;
+}
+
+html.dark-mode .rank-b,
+html[data-theme='dark'] .rank-b {
+  background-color: #696969;
+  color: #ffffff;
+  border: 1px solid #A9A9A9;
+}
+
+html.dark-mode .rank-top---new,
+html[data-theme='dark'] .rank-top---new {
+  background-color: #2E8B57;
+  color: #ffffff;
+  border: 1px solid #90EE90;
+}
+
+html.dark-mode .rank-recent-top-tier-ai-journal,
+html.dark-mode .rank-top-tier-ai-journal,
+html[data-theme='dark'] .rank-recent-top-tier-ai-journal,
+html[data-theme='dark'] .rank-top-tier-ai-journal {
+  background-color: #6A5ACD;
+  color: #ffffff;
+  border: 1px solid #9370DB;
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 768px) {
+  #surround {
+    padding: 0 10px;
+  }
+
+  .tld {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .dd {
+    padding: 12px 10px;
+  }
+
+  .vd {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .ad {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .td, .cd {
+    font-size: 12px;
+  }
+
+  .section-header {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+
+  #backfacetext {
+    font-size: 20px;
+    width: 90%;
+    top: 50%;
+  }
+
+  .hd {
+    top: 5px;
+    right: 5px;
+  }
+
+  .wd {
+    position: relative;
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+  }
+}
+
+/* Responsive Design - Small Mobile */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .section-header {
+    font-size: 1.25rem;
+  }
+
+  .dd {
+    padding: 10px 8px;
+  }
+
+  .vd {
+    font-size: 13px;
+  }
+
+  .tld {
+    font-size: 14px;
+  }
+
+  #backfacetext {
+    font-size: 16px;
+  }
+}
