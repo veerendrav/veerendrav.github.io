@@ -18,7 +18,7 @@
    ```
 
 3. **Access the website:**
-   - Open your browser and navigate to: `http://localhost:4000`
+   - Open your browser and navigate to the link given in the output of composer up.
    - The server will automatically rebuild when you modify files
    - Refresh your browser to see changes
 
@@ -267,18 +267,4 @@ Tested and working on:
 - Firefox
 - Safari
 
-### Backup
-The original countdown application is preserved in:
-```
-AI-Journal-and-Conference-Countdown/
-```
-This can be removed after confirming the integration works correctly.
 
-## Credits
-
-The deadlines countdown tool is based on:
-- Original work by [@karpathy](https://twitter.com/karpathy)
-- [Academic Countdown](http://www.academiccountdown.com/)
-- [Intelligent Systems Laboratory, University of Bristol](https://github.com/IntelligentSystemsLaboratory/academic_countdown)
-
-Integrated into Jekyll site with al-folio theme compatibility.
