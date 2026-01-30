@@ -71,8 +71,8 @@ Add a new object to the JSON array:
   "ranking": "A*",
   "area": "General AI/ML",
   "location": "Vienna, Austria",
-  "abstract_deadline": "01/23/2027 11:59",
-  "deadline": "01/28/2027 23:59",
+  "abstract_deadline": "2027/01/23 11:59",
+  "deadline": "2027/01/28 23:59",
   "conference_dates": {
     "start": "2027/07/10",
     "end": "2027/07/16"
@@ -106,8 +106,8 @@ For journals with rolling submission (no specific deadline):
 | `ranking` | ⭕ Optional | Venue ranking | "A*", "A", "B", "Top - New" |
 | `area` | ⭕ Optional | Research area | "General AI/ML", "NLP", "RL", "Vision" |
 | `location` | ⭕ Optional | Conference location | "Vienna, Austria" |
-| `deadline` | ⭕ Optional* | Paper submission deadline (AoE time) | "01/28/2027 23:59" |
-| `abstract_deadline` | ⭕ Optional | Abstract submission deadline | "01/23/2027 11:59" |
+| `deadline` | ⭕ Optional* | Paper submission deadline (AoE time) | "2027/01/28 23:59" |
+| `abstract_deadline` | ⭕ Optional | Abstract submission deadline | "2027/01/23 11:59" |
 | `conference_dates` | ⭕ Optional | Conference start/end dates | `{"start": "2027/07/10", "end": "2027/07/16"}` |
 | `notification` | ⭕ Optional | Notification date | "04/15/2027" |
 | `camera_ready` | ⭕ Optional | Camera ready deadline | "05/01/2027" |
@@ -120,8 +120,8 @@ For journals with rolling submission (no specific deadline):
 
 **Important:** All deadlines are assumed to be in **AoE (Anywhere on Earth)** time (UTC-12).
 
-- Format: `"MM/DD/YYYY HH:MM"`
-- Example: `"01/28/2027 23:59"` = January 28, 2027, 11:59 PM AoE
+- Format: `"YYYY/MM/DD HH:MM"`
+- Example: `"2027/01/28 23:59"` = January 28, 2027, 11:59 PM AoE
 - The system automatically converts AoE to your local timezone for display
 
 ### Ranking Badge Colors
@@ -178,10 +178,10 @@ The following rankings have color-coded badges:
   "area": "General AI/ML",
   "location": "Vancouver, Canada",
   "link": "https://neurips.cc/Conferences/2027",
-  "abstract_deadline": "05/08/2027 13:00",
-  "deadline": "05/15/2027 13:00",
-  "notification": "09/15/2027",
-  "camera_ready": "10/15/2027",
+  "abstract_deadline": "2027/05/08 13:00",
+  "deadline": "2027/05/15 13:00",
+  "notification": "2027/09/15",
+  "camera_ready": "2027/10/15",
   "conference_dates": {
     "start": "2027/12/06",
     "end": "2027/12/12"

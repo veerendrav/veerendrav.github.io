@@ -1,6 +1,6 @@
 ---
 layout: deadlines
-title: deadlines
+title: acad-countdowns
 permalink: /deadlines/
 description: Track important AI conference and journal submission deadlines
 nav: true
