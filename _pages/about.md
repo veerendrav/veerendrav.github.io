@@ -27,8 +27,4 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hello! I am Veerendra V, a Ph.D. student in the [Department of Computer Science and Engineering at IIT Bombay](https://www.cse.iitb.ac.in/), working under the guidance of [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/). 
 
-My research focuses on deep reinforcement learning, specifically on the problem of` discovering temporal abstractions` that enhance exploration and credit assignment in both single-task and multi-task settings. Towards this end I am investigating `representation learning`,`preference-based learning` and `uncertainty estimation` to guide the discovery of useful temporal abstractions. My work aims to contribute to the development of sample efficient and adaptable reinforcement learning agents. 
-
-Beyond academics, I am an avid reader who enjoys immersing myself in books across diverse genres such as biology, technology, science fiction and philosophy. I also love playing chess, running, hiking, and exploring new ideas that challenge my thinking.
-
-> Success is not final, failure is not fatal: it is the courage to continue that counts. ~  Winston S. Churchill 
+My research focuses on deep reinforcement learning with a particular emphasis on `RL for LLMs (RLHF/RLVR)`, `plasticity in deep RL`, and `representation learning for reinforcement learning`. I am interested in understanding how to build more adaptable and sample-efficient RL agents, exploring the intersection of reinforcement learning and large language models, and investigating how neural networks maintain their ability to learn effectively throughout training. 
